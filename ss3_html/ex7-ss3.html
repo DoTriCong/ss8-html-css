@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" method="post">
+      <table>
+        <tr>
+          <td><label>Ho va Ten</label></td>
+          <td><input required type="text" name="name" id="name" /></td>
+        </tr>
+        <tr>
+          <td><label>Email</label></td>
+          <td><input type="email" name="email" id="email" /></td>
+        </tr>
+        <tr>
+          <td><label>Ngay sinh</label></td>
+          <td><input type="date" name="date" id="date" /></td>
+        </tr>
+        <tr>
+          <td><label for="sex">Gio tinh</label></td>
+          <td>
+            <input type="radio" name="sex" id="sex" value="Nam" />
+            <label for="sex">Nam</label>
+            <input type="radio" name="sex" id="sex" value="Nu" />
+            <label for="sex">Nu</label>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="telephone">So dien thoai:</label></td>
+          <td><input type="telephone" name="telephone" id="telephone" /></td>
+        </tr>
+        <tr>
+          <td><label for="specialization">Chuyen nganh:</label></td>
+          <td>
+            <input type="text" name="specialization" id="specialization" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="year">Nam nhap hoc:</label></td>
+          <td><input type="number" name="year" id="year" /></td>
+        </tr>
+        <tr>
+          <td><label for="gpa">Diem GPA:</label></td>
+          <td>
+            <input
+              type="number"
+              id="gpa"
+              name="gpa"
+              step="0.01"
+              min="0"
+              max="4"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="address">Di chi: </label>
+          </td>
+          <td><textarea name="address" id="address"></textarea></td>
+        </tr>
+        <tr>
+          <td><label for="class">Lop hoc:</label></td>
+          <td>
+            <select id="class" name="class" required>
+              <option value="lop-1">Lop 1</option>
+              <option value="lop-2">Lop 2</option>
+              <option value="lop-3">Lop 3</option>
+              <option value="lop-4">Lop 4</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="registration-date">Ngay dang ki hoc:</label></td>
+          <td>
+            <input
+              type="datetime-local"
+              name="registration-date"
+              id="registration-date"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><button type="submit">Gui thong tin</button></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

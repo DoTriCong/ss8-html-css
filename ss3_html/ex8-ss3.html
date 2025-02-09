@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" method="post"></form>
+    <table>
+      <tr>
+        <td><label for="fullname">Ho va Ten:</label></td>
+        <td><input type="text" id="fullname" name="fullname" /></td>
+      </tr>
+      <tr>
+        <td><label>Ngay sinh</label></td>
+        <td><input type="date" name="date" id="date" /></td>
+      </tr>
+      <tr>
+        <td><label for="sex">Gio tinh</label></td>
+        <td>
+          <input type="radio" name="sex" id="sex" value="Nam" />
+          <label for="sex">Nam</label>
+          <input type="radio" name="sex" id="sex" value="Nu" />
+          <label for="sex">Nu</label>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="id-number">So can cuoc cong dan:</label></td>
+        <td><input type="text" id="id-number" name="id-number" /></td>
+      </tr>
+      <td><label for="issue-date">Ngay cap:</label></td>
+      <td><input type="date" id="issue-date" name="issue-date" /></td>
+      <tr>
+        <td><label for="issue-place">Noi cap:</label></td>
+        <td><input type="text" id="issue-place" name="issue-place" /></td>
+      </tr>
+      <tr>
+        <td><label for="phone">So dien thoai:</label></td>
+        <td><input type="tel" id="phone" name="phone" /></td>
+      </tr>
+      <tr>
+        <td><label for="email">Emaill:</label></td>
+        <td><input type="email" id="email" name="email" /></td>
+      </tr>
+      <tr>
+        <td>
+          <label for="permanent-address">Dia chi thuong chu:</label><br />
+        </td>
+        <td>
+          <textarea id="permanent-address" name="permanent-address"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="temporary-address">Dia chi tam chu:</label><br /></td>
+        <td>
+          <textarea id="temporary-address" name="temporary-address"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td><label>Loai can cuoc cong dan:</label></td>
+        <td>
+          <input
+            type="radio"
+            id="new-id"
+            name="id-type"
+            value="Căn cước công dân mới"
+            required
+          />
+          <label for="new-id">Can cuoc cong dan moi</label>
+          <input
+            type="radio"
+            id="old-id"
+            name="id-type"
+            value="Căn cước công dân cũ"
+          />
+          <label for="old-id">Can cuoc cong dan cu</label>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="ethnicity">Dan toc:</label></td>
+        <td><input type="text" id="ethnicity" name="ethnicity" /></td>
+      </tr>
+      <tr>
+        <td><label for="religion">Ton giao:</label></td>
+        <td><input type="text" id="religion" name="religion" /></td>
+      </tr>
+      <tr>
+        <td><label for="nationality">Quoc tich:</label></td>
+        <td>
+          <input
+            type="text"
+            id="nationality"
+            name="nationality"
+            value="Việt Nam"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td><label for="parent-name">Ho ten cha/me:</label></td>
+        <td><input type="text" id="parent-name" name="parent-name" /></td>
+      </tr>
+      <tr>
+        <td><label for="parent-id">So CMND/CCCD cua cha/me:</label></td>
+        <td><input type="text" id="parent-id" name="parent-id" /></td>
+      </tr>
+      <tr>
+        <td><label for="province">Tinh/Thanh pho:</label></td>
+        <td>
+          <select id="province" name="province" required>
+            <option value="">Chon Tinh/Thanh pho</option>
+            <option value="hanoi">Ha Noi</option>
+            <option value="hochiminh">Ho Chi Minh</option>
+            <option value="danang">Da Nang</option>
+            <option value="other">Khac</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td><button type="submit">Gui thong tin</button></td>
+      </tr>
+    </table>
+  </body>
+</html>

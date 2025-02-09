@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" method="post">
+      <div>
+        <label for="username">Ho va Ten</label>
+        <input required type="text" name="username" id="username" />
+      </div>
+      <div>
+        <label for="dateAndTime">Chon ngay gio:</label>
+        <input type="datetime-local" name="dateAndTime" id="date" />
+      </div>
+      <div>
+        <label for="service">Loai dich vu:</label>
+        <select id="service" name="service" required>
+          <option value="tu-van">Tu van</option>
+          <option value="kham-benh">Kham benh</option>
+          <option value="dich-vu-khac">Dich vu khac</option>
+        </select>
+      </div>
+      <div>
+        <label for="note">Ghi chu: </label>
+        <textarea name="note" id="note"></textarea>
+      </div>
+      <div>
+        <button type="submit">Dat lich</button>
+      </div>
+    </form>
+  </body>
+</html>
