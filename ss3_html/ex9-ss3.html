@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" method="post">
+      <table>
+        <tr>
+          <td><label for="fullname">Ho va Ten:</label></td>
+          <td><input type="text" id="fullname" name="fullname" /></td>
+        </tr>
+        <tr>
+          <td><label>Ngay sinh</label></td>
+          <td><input type="date" name="date" id="date" /></td>
+        </tr>
+        <tr>
+          <td><label for="sex">Gio tinh</label></td>
+          <td>
+            <input type="radio" name="sex" id="sex" value="Nam" />
+            <label for="sex">Nam</label>
+            <input type="radio" name="sex" id="sex" value="Nu" />
+            <label for="sex">Nu</label>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="phone">So dien thoai:</label></td>
+          <td><input type="tel" id="phone" name="phone" /></td>
+        </tr>
+        <tr>
+          <td><label for="email">Emaill:</label></td>
+          <td><input type="email" id="email" name="email" /></td>
+        </tr>
+        <tr>
+          <td><label for="address">Dia chi:</label><br /></td>
+          <td><textarea id="address" name="address"></textarea></td>
+        </tr>
+        <tr>
+          <td><label for="role">Vai tro trong nhom:</label></td>
+          <td>
+            <select id="role" name="role">
+              <option value="thanhvien">Thanh vien</option>
+              <option value="quanly">Quan ly</option>
+              <option value="khac">Khac</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="hobbies">So thich:</label></td>
+          <td><input type="text" id="hobbies" name="hobbies" /></td>
+        </tr>
+        <tr>
+          <td><label for="skills">Ky nang:</label></td>
+          <td><textarea id="skills" name="skills"></textarea></td>
+        </tr>
+        <tr>
+          <td><label>Thoi gian ranh:</label></td>
+          <td>
+            <input type="checkbox" id="morning" name="free-time" value="Sang" />
+            <label for="morning">Sang</label>
+            <input
+              type="checkbox"
+              id="afternoon"
+              name="free-time"
+              value="Chieu"
+            />
+            <label for="afternoon">Chieu</label>
+            <input type="checkbox" id="evening" name="free-time" value="Toi" />
+            <label for="evening">Toi</label>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="reason">Ly do tham gia nhom:</label></td>
+          <td><textarea id="reason" name="reason"></textarea></td>
+        </tr>
+        <tr>
+          <td><label for="fav-color">Mau yeu thich:</label></td>
+          <td>
+            <input
+              type="color"
+              id="fav-color"
+              name="fav-color"
+              value="#000000"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label>Dang ky nhan ban tin:</label></td>
+          <td>
+            <input
+              type="checkbox"
+              id="newsletter"
+              name="newsletter"
+              value="Co"
+            />
+            <label for="newsletter">Co</label>
+          </td>
+        </tr>
+        <tr>
+          <td><label>Nhan thong bao qua email:</label></td>
+          <td>
+            <input
+              type="radio"
+              id="email-notif"
+              name="notification"
+              value="Email"
+            />
+            <label for="email-notif">Email</label>
+            <input
+              type="radio"
+              id="sms-notif"
+              name="notification"
+              value="SMS"
+            />
+            <label for="sms-notif">SMS</label>
+          </td>
+        </tr>
+        <tr>
+          <td><button type="submit">Đang ky thanh vien</button></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

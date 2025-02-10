@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+<form action="" method="post">
+  <table>
+    <tr>
+      <td><label for="fullname">Ho va Ten:</label></td>
+      <td><input type="text" id="fullname" name="fullname" /></td>
+    </tr>
+    <tr>
+      <td><label>Ngay sinh</label></td>
+      <td><input type="date" name="date" id="date" /></td>
+    </tr>
+    <tr>
+      <td><label for="sex">Gio tinh</label></td>
+      <td>
+        <input type="radio" name="sex" id="sex" value="Nam" />
+        <label for="sex">Nam</label>
+        <input type="radio" name="sex" id="sex" value="Nu" />
+        <label for="sex">Nu</label>
+      </td>
+    </tr>
+    <tr>
+      <td><label for="phone">So dien thoai:</label></td>
+      <td><input type="tel" id="phone" name="phone" /></td>
+    </tr>
+    <tr>
+      <td><label for="email">Emaill:</label></td>
+      <td><input type="email" id="email" name="email" /></td>
+    </tr>
+    <tr>
+      <td><label for="company-name">Ten cong ty:</label></td>
+      <td><input type="text" id="company-name" name="company-name" /></td>
+    </tr>
+    <tr>
+      <td><label for="role">Vai tro trong cong ty:</label></td>
+      <td>
+        <select id="role" name="role">
+          <option value="CEO">Giam doc dieu hanh (CEO)</option>
+          <option value="manager">Quan ly</option>
+          <option value="staff">Nhan vien</option>
+          <option value="other">Khac</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+        <td><label for="company-size">Quy mo cong ty:</label></td>
+        <td><select id="company-size" name="company-size">
+            <option value="small">Doanh nghiep nho</option>
+            <option value="medium">Doanh nghiep vua</option>
+            <option value="large">Doanh nghiep lon</option>
+        </select></td>
+        <tr>
+            <td><label for="industry">Nganh nghe cong ty:</label></td>
+            <td>  <input type="text" id="industry" name="industry"></td>
+        </tr>
+    </tr>
+    <tr>
+        <td> <label for="reason">Ly do tham gia cau lac bo:</label></td>
+        <td>  <textarea id="reason" name="reason"></textarea></td>
+    </tr>
+    <tr>
+        <td><label for="experience">Kinh nghiem lanh dao:</label></td>
+        <td><textarea id="experience" name="experience" ></textarea></td>
+    </tr>
+    <tr>
+        <td><label for="goals">Muc tieu khi tham gia cau lac bo:</label></td>
+        <td> <textarea id="goals" name="goals" ></textarea></td>
+    </tr>
+    <tr>
+        <td><label>Chuong trinh su kien mong muon tham gia:</label></td>
+        <td><input type="checkbox" id="networking" name="events" value="Networking">
+            <label for="networking">Networking</label>
+            <input type="checkbox" id="workshops" name="events" value="Workshops">
+            <label for="workshops">Workshops</label>
+            <input type="checkbox" id="seminars" name="events" value="Hoi thao">
+            <label for="seminars">Hoi thao</label></td>
+    </tr>
+    <tr>
+        <td><label for="newsletter">Dang ky nhan ban tin:</label></td>
+        <td><input type="checkbox" id="newsletter" name="newsletter" value="Co">
+            <label for="newsletter">Co</label></td>
+    </tr>
+    <tr>
+        <td><button type="submit">Dang ky hoi vien</button></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>
